@@ -1,0 +1,13 @@
+{
+  "name": "thing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "kafka-node": "^3.0.1"
+  },
+  "scripts": {
+    "consume": "node consumer.js",
+    "produce": "node producer.js"
+  }
+}
